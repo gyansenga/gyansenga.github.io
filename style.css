@@ -1,0 +1,79 @@
+h1,h2,h3,blockquote{
+  font-family: 'Abril Fatface', cursive;
+  font-weight: lighter;
+  color: #222;
+}
+
+h4{
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+}
+
+p,ul{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+blockquote{
+  font-size: 55px;
+  width: 800px;
+  background: #222;
+  color: white;
+  margin: 30px 0px;
+  padding: 30px 40px;
+  position: relative;
+  display: flex;
+  align-content: center;
+}
+
+blockquote::before{
+  content: '“';
+  font-size: 80px;
+  padding: 15px;
+  position:absolute;
+  top: -30px;
+  left: -12px;
+  
+}
+
+
+ul{
+  list-style-type: square;
+  
+}
+
+main{
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img{
+ position: relative; 
+   width: 100%;
+}
+
+
+h1{
+  font-size: 60px;
+  position: absolute; 
+  top: 230px;
+  left: 280px; 
+   width: 100%; 
+  text-align: bottom;
+}
+
+.text-block{
+  font-size: 35px;
+  position: absolute; 
+    bottom: 120px;
+  top: 210px;
+  left: 280px; 
+   width: 100%; 
+  text-align: bottom;
+}
+
+hr{
+  border: 2px solid black;
+}
